@@ -221,7 +221,12 @@ footer nav a {
     width: 47%;
     border-bottom: dashed 1px black;
     padding-bottom: 20px;
+    padding-right: 0px;
     margin-bottom: 40px;
+}
+
+.content .stuff img {
+    width: 376px;
 }
 
 .content .stuff:hover {
@@ -265,24 +270,28 @@ footer nav a {
 }
 
 .contact form .name input {
-    margin-left: 22px;
+    margin-left: 42px;
 }
 .contact .mail {
     margin: 20px;
 }
 
 .contact form .mail input {
-    margin-left: 21px;
+    margin-left: 41px;
 }
 .contact .phone {
     margin: 20px;
 }
 
 .contact form .phone input {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .contact .message {
     margin: 20px;
+}
+
+.contact .message #msg {
+    margin-left: 20px;
 }
 
 .contact button {
